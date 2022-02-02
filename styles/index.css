@@ -1,0 +1,143 @@
+body::before {
+    display: block;
+    content: '';
+    height: 65px;
+}
+
+
+/* * {
+    border: 1px solid red;
+} */
+
+#map {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+html::-webkit-scrollbar {
+    width: 0.6rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #222;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #ffca2c;
+    height: 5px;
+    /* border-radius: 20%; */
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+
+/* .sect {
+    height: 70vh;
+} */
+
+#home {
+    height: 50vh !important;
+}
+
+.subscribeBox {
+    /* max-height: 1000px !important; */
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.subscribeInput {
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.subscribeInput>input {
+    border: none;
+    background: none;
+    width: 50%;
+    margin-left: 25%;
+    color: #f4f4f4;
+    text-align: center;
+}
+
+.logoChange {
+    color: #ffca2c
+}
+
+.subscribeInput>input:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+.subscribeInput>input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.imgg {
+    z-index: 1;
+}
+
+.subscribeInput>button {
+    border-radius: 15px;
+    border: none;
+    right: -5%;
+}
+
+.edu-icon {
+    position: absolute;
+    top: -20px;
+    right: 50%;
+    left: 50%;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background: rgb(82, 82, 82);
+}
+
+.box:hover {
+    border: 1px solid #ffca2c;
+    background-color: rgba(82, 82, 82, 0.6);
+    box-shadow: 1px 3px 4px rgba(255, 193, 0, 0.5);
+}
+
+.box>h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.box>p {
+    padding: 0;
+    margin: 0;
+    font-size: .9rem;
+}
+
+.smallT {
+    font-size: 0.8rem;
+}
+
+.socialIcon:hover {
+    color: #f4f4f4 !important;
+    opacity: .8;
+}
+
+@media (max-width:600px) {
+    .news-input {
+        width: 50%;
+    }
+    .contactItems {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width:800px) {
+    .contactItems {
+        margin-top: 20px;
+    }
+}
