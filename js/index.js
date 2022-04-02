@@ -20,7 +20,6 @@ ageDIV.innerHTML = myAge;
 
 
 
-
 function calculateMyAge(DOB) {
 	
  
